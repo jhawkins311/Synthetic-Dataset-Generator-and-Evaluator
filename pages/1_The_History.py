@@ -43,10 +43,6 @@ To address these challenges, researchers and organizations have explored differe
 
 Generating has stood out as the most scalable and privacy-safe solution. 
 
-Today, over 60% of AI training data is synthetic. 
-
-By 2030, Synthetic Data is expected to overshadow real data when training AI models and will generate over $2.3 billion in market value! 
-
 ---
 ### 🧠 What is Synthetic Data?
 
@@ -74,6 +70,10 @@ Modern synthetic generative platforms, like MostlyAI, Gretel, and YData, have be
 ---
 ### 🔍 Can Synthetic Data Be Trusted?
 
+Today, over 60% of AI training data is synthetic. 
+
+By 2030, Synthetic Data is expected to overshadow real data when training AI models and will generate over $2.3 billion in market value! 
+
 As synthetic data usage becomes more common, a new challenge arises: How can we know if the Synthetic Data is “Good”?
 
 There are three pillars of synthetic data evaluation:
@@ -83,7 +83,6 @@ There are three pillars of synthetic data evaluation:
 3. **Privacy** – How unlikely is it that anyone could re-identify individuals from the synthetic dataset?
 
 This course will walk you through the full process of generating and evaluating synthetic datasets that meet these critical standards. 
-
 
 ---
 
