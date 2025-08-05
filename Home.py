@@ -19,16 +19,16 @@ Throughout this interactive course, you'll learn about why synethetic data is im
 
 ### 📚 Course Chapters
 
-#### [**Chapter 1: The History**](https://capstone-dz3iduiobkviwaijgqcvqg.streamlit.app/The_History)
+#### [**Chapter 1: The History**](https://synthetic-dataset-generator-and-evaluator-9v5k5abs9cn3iwxy8kje.streamlit.app/The_History)
 Discover how the need for privacy-preservation lead to the creation of synthetic data and why it's essential for modern AI tools
 
-#### [**Chapter 2: The Models**](https://capstone-dz3iduiobkviwaijgqcvqg.streamlit.app/The_Models)
+#### [**Chapter 2: The Models**](https://synthetic-dataset-generator-and-evaluator-9v5k5abs9cn3iwxy8kje.streamlit.app/The_Models)
 Meet the four core models used to generate synthetic datasets: CTGAN, TVAE, GaussianCopula, and CopulaGAN, 
 
-#### [**Chapter 3: The Process**](https://capstone-dz3iduiobkviwaijgqcvqg.streamlit.app/The_Process)
+#### [**Chapter 3: The Process**](https://synthetic-dataset-generator-and-evaluator-9v5k5abs9cn3iwxy8kje.streamlit.app/The_Process)
 See a full example of the synthetic data process in action, from uploading a dataset to evaluating the results. 
 
-#### [**Chapter 4: The Lab**](https://capstone-dz3iduiobkviwaijgqcvqg.streamlit.app/The_Lab)
+#### [**Chapter 4: The Lab**](https://synthetic-dataset-generator-and-evaluator-9v5k5abs9cn3iwxy8kje.streamlit.app/The_Lab)
 Put your knowledge into practice by using our interactive Google CoLAB. Generate multiple synthetic datasets and evaluate them in just a few clicks! 
 
 ---
