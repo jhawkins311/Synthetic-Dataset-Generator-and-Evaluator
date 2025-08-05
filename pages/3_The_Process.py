@@ -4,10 +4,9 @@ st.set_page_config(page_title="Chapter 3: The Process", layout="wide")
 st.title("Chapter 3: The Process 🧭")
 
 st.markdown("""
-Welcome! This is your **step-by-step guide** to generating and evaluating synthetic data—**no coding required**.
+Welcome to the **step-by-step guide** for generating and evaluating synthetic data!
 
-If you want to use our Lab but don’t want to touch code, you’re in the right place.
-Each tab below walks you through a key stage, with clear instructions and images for every step.
+In this chapter, you will See a full example of the synthetic data process in action. 
 """)
 
 tab1, tab2, tab3, tab4 = st.tabs([
