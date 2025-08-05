@@ -104,11 +104,9 @@ Each engine tries a different method, so you get a bunch of results to compare.
 *Why this matters:*  
 No single engine works best for all data. Training multiple models gives you options for the best synthetic output.
 """)
-    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step%205.png", caption="Training process for multiple models")
+st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step%205.png", caption="Training process for multiple models")
 
-    st.warning("Training runs quickly for demos (10 epochs), but for final results, ask for a longer training time.")
-
-    
+st.warning("Training runs quickly for demos (10 epochs), but for final results, ask for a longer training time.")
 
 
 
