@@ -172,7 +172,7 @@ Low utility? The data may “look right” but can lead to misleading insights.
 
     # 3️⃣ Privacy Chart
     st.markdown("**3️⃣ Privacy (DCR Score) Bar Chart**")
-    st.image("path_to_privacy_chart.png", caption="Privacy risk scores for each model")
+    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step9f.png", caption="Privacy risk scores for each model")
     st.info("""
 Shows the privacy risk for each synthetic dataset (lower is better).  
 **Why it matters:**  
