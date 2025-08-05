@@ -40,7 +40,7 @@ Please remember:
 
 # Button to simulate launching the lab
 st.markdown("""
-<a href="https://colab.research.google.com/drive/1HsV7spMTkvjajdbsrSqu8nIcQfE80ks0?usp=sharing" target="_blank">
+<a href="https://colab.research.google.com/drive/16k3RsD0tFh0A5QbRzY0KhPHdnPac5pWT?usp=sharing" target="_blank">
     <button style='
         padding: 1.25rem 2.5rem;
         font-size: 1.25rem;
