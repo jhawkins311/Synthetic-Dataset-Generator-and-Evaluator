@@ -16,7 +16,7 @@ In this chapter, you’ll learn how synthetic data began as a solution to privac
 
 ### 📉 What’s the Hidden Challenge Behind AI’s Growth?
 
-Artificial intelligence holds the key to solving the world’s most complex problems. However, it's growth is dependant on the quality and availability of training data. 
+Artificial intelligence holds the key to solving the world’s most complex problems. However, its growth is dependent on the quality and availability of training data. 
 
 Currently, there are two major roadblocks: 
 
@@ -76,7 +76,7 @@ Modern synthetic generative platforms, like MostlyAI, Gretel, and YData, have be
 
 As synthetic data usage becomes more common, a new challenge arises: How can we know if the Synthetic Data is “Good”?
 
-There are three pillars of synthteic data evaluation:
+There are three pillars of synthetic data evaluation:
 
 1. **Accuracy** – How well does the synthetic data reflect the patterns and relationships in the original?
 2. **Utility** – Can machine learning models trained on the synthetic data produce accurate results?
