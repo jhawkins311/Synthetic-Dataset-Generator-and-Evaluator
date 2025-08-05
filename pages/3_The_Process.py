@@ -29,7 +29,7 @@ These handle all data processing and synthetic generation.
 *Why this matters:*  
 Without these, nothing else works!
 """)
-    st.image("path_to_image1.png", caption="Installing required tools")
+    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step1.png", caption="Installing required tools")
 
     # Step 2
     st.subheader("2. Import Libraries")
@@ -40,7 +40,7 @@ You don’t need to do anything! just watch for a “Success” message.
 *Why this matters:*  
 All buttons and features in the notebook rely on these libraries.
 """)
-    st.image("path_to_image2.png", caption="Libraries loaded and ready")
+    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step2.png", caption="Libraries loaded and ready")
 
     # Step 3
     st.subheader("3. Upload File")
@@ -52,7 +52,7 @@ Upload your dataset in `.csv` or `.xlsx` format using the Lab’s interface.
 *Why this matters:*  
 This is the real data that the Lab will use to learn patterns and relationships.
 """)
-    st.image("path_to_image3.png", caption="Upload your data file")
+    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step3c.png", caption="Upload your data file")
 
     # Optional: Manage Sensitive Columns
     st.subheader("Optional: Manage Sensitive Columns")
@@ -64,7 +64,7 @@ Before moving on, you’ll have the chance to **remove** or **scramble** private
 *Why this matters:*  
 Taking out sensitive info protects privacy—even before creating synthetic data.
 """)
-    st.image("path_to_image4.png", caption="Remove or scramble sensitive columns")
+    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step3d.png", caption="Remove or scramble sensitive columns")
 
     # Step 4
     st.subheader("4. Create Metadata")
@@ -75,7 +75,7 @@ You’ll see a visual summary to check for accuracy before moving ahead.
 *Why this matters:*  
 Accurate metadata means more realistic and reliable synthetic data.
 """)
-    st.image("path_to_image5.png", caption="Metadata summary preview")
+    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step4c.png", caption="Metadata summary preview")
 
     st.info("**Tip:** Only upload data you have permission to use. Remove or scramble anything private before moving on!")
 
@@ -95,7 +95,7 @@ Each engine tries a different method, so you get a bunch of results to compare.
 *Why this matters:*  
 No single engine works best for all data. Training multiple models gives you options for the best synthetic output.
 """)
-    st.image("path_to_image6.png", caption="Training progress for multiple models")
+    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step%205.png", caption="Training progress for multiple models")
 
     st.warning("Training runs quickly for demos (10 epochs), but for final results, ask for a longer training time.")
 
@@ -112,7 +112,7 @@ Each engine creates its own synthetic table. This mimics your original data, but
 *Why this matters:*  
 This gives you new, privacy-safe datasets for analysis, sharing, or AI training.
 """)
-    st.image("path_to_image7.png", caption="Choose number of synthetic rows")
+    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step6a.png", caption="Choose number of synthetic rows")
 
     # Step 7
     st.subheader("7. Download Synthetic Datasets (Excel File)")
@@ -122,8 +122,8 @@ Download a single Excel file containing a tab for each synthetic dataset (one pe
 *Why this matters:*  
 You can open, share, or analyze these new datasets—each created by a different model.
 """)
-    st.image("path_to_image8.png", caption="Download your synthetic datasets")
-
+    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step7a.png", caption="Download your synthetic datasets")
+    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step7b.png", caption="The Excel File with 4 synthetic datasets")
     st.success("Each synthetic table is labeled by the model that created it. Compare them to find the best fit!")
 
 
@@ -141,7 +141,7 @@ The Lab checks each synthetic dataset for:
 *Why this matters:*  
 Not all synthetic data is created equal! These tests show which version is safest and most realistic.
 """)
-    st.image("path_to_image9.png", caption="Evaluation results for all models")
+    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step8.png", caption="Evaluation results for CTGAN Model")
 
     # Step 9a: Dashboard Visualizations and Explanations
     st.subheader("9a. Generating Evaluation Dashboard")
@@ -152,7 +152,7 @@ Here’s what each one means and why it’s important:
 
     # 1️⃣ Accuracy Chart
     st.markdown("**1️⃣ Accuracy (Diagnostic Score) Bar Chart**")
-    st.image("path_to_accuracy_chart.png", caption="Accuracy comparison across models")
+    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step9a.png", caption="Accuracy comparison across models")
     st.info("""
 Shows how well each synthetic dataset preserves the structure and rules of your real data (like value ranges, missing values, unique IDs).  
 **Why it matters:**  
@@ -162,7 +162,7 @@ Low accuracy? That model might be missing important patterns.
 
     # 2️⃣ Utility Chart
     st.markdown("**2️⃣ Utility (Quality Score) Bar Chart**")
-    st.image("path_to_quality_chart.png", caption="Utility comparison across models")
+    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step9b.png", caption="Utility comparison across models")
     st.info("""
 Shows how well the synthetic data mimics the statistical distributions and relationships of the original data.  
 **Why it matters:**  
@@ -181,7 +181,7 @@ A low privacy risk score means the synthetic data offers strong protection again
 
     # 4️⃣ Column Comparison Plot
     st.markdown("**4️⃣ Column Comparison Plot**")
-    st.image("path_to_column_comparison.png", caption="Distribution comparison for a selected column")
+    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step9c.png", caption="Distribution comparison for a selected column")
     st.info("""
 Lets you pick a column and compare its values in the real vs. synthetic datasets.  
 **Why it matters:**  
@@ -190,7 +190,7 @@ Helps you see if each model captures detailed patterns for individual features: 
 
     # 5️⃣ Per-Column Similarity Chart
     st.markdown("**5️⃣ Per-Column Similarity Bar Chart**")
-    st.image("path_to_column_similarity.png", caption="Per-column quality scores for a selected model")
+    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step9d.png", caption="Per-column quality scores for a selected model")
     st.info("""
 Shows how well each individual column was reproduced in a selected synthetic dataset.  
 **Why it matters:**  
@@ -199,7 +199,7 @@ Helps diagnose which features were well-learned and which need improvement. This
 
     # Tab 6 - Recommended Model
     st.markdown("**6️⃣ Model Recommendation & Overall Score**")
-    st.image("path_to_composite_score.png", caption="Best overall model highlighted")
+    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step9e.png", caption="Best overall model highlighted")
     st.info("""
 Summarizes the scores and recommends the best synthetic dataset overall, balancing accuracy, utility, and privacy.  
 **Why it matters:**  
@@ -217,8 +217,8 @@ Download a Word report for documentation, compliance, or sharing with your team.
 *Why this matters:*  
 You have a record of your process, comparisons, and proof of privacy protection.
 """)
-    st.image("path_to_image11.png", caption="Download the evaluation report")
-
+    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step10b.png", caption="Download the evaluation report")
+    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step10.png", caption="The Word document with the evaluation report")
 
 # Final Navigation Tip
 st.markdown("""
