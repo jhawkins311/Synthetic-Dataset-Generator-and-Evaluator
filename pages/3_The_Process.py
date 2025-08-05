@@ -95,18 +95,19 @@ This is a 3-step process:
 
     st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step5a.png", caption="Code block for the multiple model Training process")
 
-st.markdown("""
-Each engine tries a different method, so you get a bunch of results to compare.
+    st.markdown("""
+    Each engine tries a different method, so you get a bunch of results to compare.
 
-- Training is set for 10 rounds (epochs) by default for speed.
-- For best results, use more epochs when time allows!
+    - Training is set for 10 rounds (epochs) by default for speed.
+    - For best results, use more epochs when time allows!
 
-*Why this matters:*  
-No single engine works best for all data. Training multiple models gives you options for the best synthetic output.
-""")
-st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step%205.png", caption="Training process for multiple models")
+    *Why this matters:*  
+    No single engine works best for all data. Training multiple models gives you options for the best synthetic output.
+    """)
+    
+    st.image("https://raw.githubusercontent.com/jhawkins311/Synthetic-Dataset-Generator-and-Evaluator/refs/heads/main/images/Step%205.png", caption="Training process for multiple models")
 
-st.warning("Training runs quickly for demos (10 epochs), but for final results, ask for a longer training time.")
+    st.warning("Training runs quickly for demos (10 epochs), but for final results, ask for a longer training time.")
 
 
 
